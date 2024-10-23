@@ -1,0 +1,31 @@
+/* styles.css or your main CSS file */
+.board {
+    display: flex; /* Use flexbox for horizontal layout */
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    padding: 20px; /* Add padding around the board */
+  }
+  
+  .priority-columns {
+    display: flex; /* Use flexbox for the columns */
+    flex-direction: row; /* Align children in a row */
+  }
+  
+  .column {
+    background-color: #f8f9fa; /* Light background for the columns */
+    border: 1px solid #dee2e6; /* Light border around the columns */
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 10px; /* Space between columns */
+    padding: 10px; /* Padding inside each column */
+    width: 250px; /* Set a fixed width for columns */
+    flex-shrink: 0; /* Prevent columns from shrinking */
+  }
+  
+  /* Style for tickets */
+  .ticket {
+    background-color: #ffffff; /* White background for tickets */
+    border: 1px solid #ced4da; /* Border for tickets */
+    border-radius: 3px; /* Slightly rounded corners */
+    margin: 5px 0; /* Space between tickets */
+    padding: 10px; /* Padding inside tickets */
+  }
+  

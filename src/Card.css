@@ -1,0 +1,28 @@
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .priority-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  
+  .card-body {
+    padding: 8px 0;
+  }
+  
+  .card-footer {
+    font-size: 12px;
+    color: #555;
+  }
+  
